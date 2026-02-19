@@ -1,0 +1,12 @@
+{
+  "name": "nexus-store",
+  "version": "1.0.0",
+  "description": "Bot Discord",
+  "main": "Index.js",
+  "scripts": {
+    "start": "node Index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0"
+  }
+}
