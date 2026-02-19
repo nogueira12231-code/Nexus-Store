@@ -143,7 +143,7 @@ if (filas[modo].length >= necessario) {
     sala.send(`🔥 Sala criada para ${modo}
 
 👥 Jogadores:
-${jogadores.map(id => <@${id}>).join("\n")}
+${jogadores.map(id => `<@${id}>`).join("\n")}
 
 Boa partida! 🎮`);
 }
